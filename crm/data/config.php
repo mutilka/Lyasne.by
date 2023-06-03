@@ -1,6 +1,6 @@
 <?php
 return [
-  'cacheTimestamp' => 1685803137,
+  'cacheTimestamp' => 1685809487,
   'database' => [
     'driver' => 'pdo_mysql',
     'host' => 'localhost',
@@ -254,7 +254,7 @@ return [
     2 => 'Lead',
     3 => 'Account'
   ],
-  'microtime' => 1685803137.141411,
+  'microtime' => 1685809487.726212,
   'companyLogoId' => '647b507e90b57ea16',
   'companyLogoName' => 'kandinsky-download-1685803119070.png',
   'pdfEngine' => 'Tcpdf'
