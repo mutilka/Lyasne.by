@@ -1,0 +1,2 @@
+[2022-11-07 07:59:03] ERROR: EmailAccount 5fddb2e3c62230507 (Select Folder) [0] cannot read - connection closed? [] []
+[2022-11-07 07:59:03] WARNING: E_WARNING: fwrite(): SSL operation failed with code 1. OpenSSL Error messages: error:1420C0CF:SSL routines:ssl_write_internal:protocol is shutdown {"code":2,"message":"fwrite(): SSL operation failed with code 1. OpenSSL Error messages:\nerror:1420C0CF:SSL routines:ssl_write_internal:protocol is shutdown","file":"/home/gorshoch/public_html/beegood.by/crm/vendor/laminas/laminas-mail/src/Protocol/Imap.php","line":340} []

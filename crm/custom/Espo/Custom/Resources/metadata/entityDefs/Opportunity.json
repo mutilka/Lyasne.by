@@ -1,0 +1,121 @@
+{
+    "fields": {
+        "stage": {
+            "options": [
+                "Model",
+                "Negotiation",
+                "Prepayment",
+                "Резка",
+                "Production",
+                "Отмывка и фото",
+                " Delivery",
+                "Payment",
+                "Expenses",
+                "Closed Won",
+                "Closed Lost"
+            ],
+            "probabilityMap": {
+                "Model": 100,
+                "Negotiation": 100,
+                "Prepayment": 100,
+                "Резка": 100,
+                "Production": 100,
+                "Отмывка и фото": 100,
+                " Delivery": 100,
+                "Payment": 100,
+                "Expenses": 100,
+                "Closed Won": 100,
+                "Closed Lost": 0
+            },
+            "style": {
+                "Model": "danger",
+                "Negotiation": "info",
+                "Prepayment": "warning",
+                "Резка": null,
+                "Production": "primary",
+                "Отмывка и фото": null,
+                " Delivery": "warning",
+                "Payment": "danger",
+                "Expenses": "danger",
+                "Closed Won": "success",
+                "Closed Lost": "danger"
+            },
+            "required": true,
+            "displayAsLabel": true,
+            "default": "Prospecting"
+        },
+        "amountCurrency": {
+            "default": "BYN"
+        },
+        "adress": {
+            "type": "address",
+            "viewMap": false,
+            "isCustom": true
+        },
+        "adressCity": {
+            "required": false
+        },
+        "images": {
+            "type": "image",
+            "previewSize": "small",
+            "isCustom": true,
+            "listPreviewSize": "",
+            "maxFileSize": 1
+        },
+        "qRCode": {
+            "type": "barcode",
+            "len": 255,
+            "codeType": "QRcode",
+            "isCustom": true
+        },
+        "images2": {
+            "type": "image",
+            "previewSize": "small",
+            "listPreviewSize": "",
+            "isCustom": true,
+            "maxFileSize": 1
+        },
+        "images3": {
+            "type": "image",
+            "previewSize": "small",
+            "listPreviewSize": "",
+            "maxFileSize": 1,
+            "isCustom": true
+        },
+        "closeDate": {
+            "default": "javascript: return this.dateTime.getDateShiftedFromToday(5, 'days');",
+            "after": null,
+            "before": null,
+            "useNumericFormat": false
+        }
+    },
+    "links": {
+        "images": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "disabled": true
+        },
+        "images2": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "disabled": true
+        },
+        "images3": {
+            "type": "belongsTo",
+            "entity": "Attachment",
+            "skipOrmDefs": true,
+            "disabled": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    }
+}

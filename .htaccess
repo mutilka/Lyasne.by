@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^lyasne\.by\.gorshochek\.by$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.lyasne\.by\.gorshochek\.by$
+RewriteRule ^/?$ "https\:\/\/lyasne\.by\/" [R=301,L]
+

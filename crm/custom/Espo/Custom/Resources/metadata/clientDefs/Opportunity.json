@@ -1,0 +1,12 @@
+{
+    "dynamicLogic": {
+        "fields": {
+            "stage": {
+                "visible": null
+            }
+        }
+    },
+    "kanbanViewMode": true,
+    "color": "#9fc77e",
+    "iconClass": "fas fa-dollar-sign"
+}

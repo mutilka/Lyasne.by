@@ -1,0 +1,66 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "account"
+                }
+            ],
+            [
+                {
+                    "name": "stage"
+                },
+                {
+                    "name": "amount"
+                }
+            ],
+            [
+                {
+                    "name": "adress"
+                },
+                {
+                    "name": "qRCode"
+                }
+            ],
+            [
+                {
+                    "name": "contacts"
+                },
+                {
+                    "name": "leadSource"
+                }
+            ],
+            [
+                {
+                    "name": "closeDate"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                }
+            ],
+            [
+                {
+                    "name": "images"
+                },
+                {
+                    "name": "images2"
+                },
+                {
+                    "name": "images3"
+                }
+            ],
+            [
+                {
+                    "name": "attachments"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Обзор"
+    }
+]

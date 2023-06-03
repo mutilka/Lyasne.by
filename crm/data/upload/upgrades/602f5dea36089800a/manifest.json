@@ -1,0 +1,15 @@
+{
+  "name": "EspoCRM Upgrade 6.0.8 to 6.0.9",
+  "type": "upgrade",
+  "version": "6.0.9",
+  "acceptableVersions": [
+    "6.0.8"
+  ],
+  "php": [
+    ">=7.2.0"
+  ],
+  "releaseDate": "2021-01-04",
+  "author": "EspoCRM",
+  "description": "",
+  "delete": []
+}

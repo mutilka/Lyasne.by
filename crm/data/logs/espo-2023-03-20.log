@@ -1,0 +1,1 @@
+[2023-03-20 22:42:15] ERROR: CronManager: Failed job running, job [6418e0fd65057ceb5]. Error Details: Job CheckEmailAccounts 5fddb2e3c62230507: [0] cannot login, user or password wrong at /home/gorshoch/public_html/beegood.by/crm/application/Espo/Modules/Crm/Jobs/CheckEmailAccounts.php:74 [] []

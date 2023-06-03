@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "adress": "Adress",
+        "adressStreet": "Adress Улица",
+        "adressCity": "Adress Город",
+        "adressState": "Adress Штат",
+        "adressCountry": "Adress Страна",
+        "adressPostalCode": "Adress Почтовый индекс",
+        "adressMap": "Adress Карта",
+        "images": "Макет №1",
+        "qRCode": "QR code",
+        "images2": "Макет №2",
+        "images3": "Макет №3"
+    }
+}

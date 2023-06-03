@@ -1,0 +1,41 @@
+{
+    "options": {
+        "stage": {
+            "Prospecting": "Привлечение клиента",
+            "Qualification": "Уточнение деталей",
+            "Proposal": "Предложение",
+            "Negotiation": "Согласование",
+            "Prepayment": "Предоплата",
+            "Work": "В работе",
+            " Delivery": "Упаковка и доставка",
+            "Payment": "Оплата",
+            "Closed Won": "Закрыто - Успех",
+            "Closed Lost": "Закрыто - Провал",
+            "Recipe": "Рецепт",
+            " Products": "Покупка продуктов",
+            "Production": "Production",
+            " Scenario": "Сценарий",
+            " Shooting": "Съемка",
+            "Processing": "Обработка",
+            "Layout": "Верстка",
+            "Posting": "Размещение",
+            "Model": "Хуяк-хуяк",
+            "Expenses": "Затраты",
+            "Резка": "Резка",
+            "Отмывка и фото": "Отмывка и фото"
+        }
+    },
+    "fields": {
+        "adress": "Adress",
+        "adressStreet": "Adress Улица",
+        "adressCity": "Adress Город",
+        "adressState": "Adress Штат",
+        "adressCountry": "Adress Страна",
+        "adressPostalCode": "Adress Почтовый индекс",
+        "adressMap": "Adress Карта",
+        "images": "Макет №1",
+        "qRCode": "QR code",
+        "images2": "Макет №2",
+        "images3": "Макет №3"
+    }
+}
