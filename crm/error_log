@@ -1,9 +1,0 @@
-[03-Jun-2023 14:14:08 UTC] PHP Warning:  mkdir(): File exists in /home/gorshoch/public_html/lyasne.by/crm/application/Espo/Core/Utils/File/Manager.php on line 534
-[03-Jun-2023 14:14:08 UTC] PHP Fatal error:  Uncaught Espo\Core\Exceptions\Error: Permission denied: unable to create a folder on the server - data/cache/application in /home/gorshoch/public_html/lyasne.by/crm/application/Espo/Core/Utils/File/Manager.php:660
-Stack trace:
-#0 /home/gorshoch/public_html/lyasne.by/crm/application/Espo/Core/Utils/File/Manager.php(250): Espo\Core\Utils\File\Manager->checkCreateFile('data/cache/appl...')
-#1 /home/gorshoch/public_html/lyasne.by/crm/application/Espo/Core/Utils/File/Manager.php(351): Espo\Core\Utils\File\Manager->putContents('data/cache/appl...', '<?php\nreturn [\n...', 2, true)
-#2 /home/gorshoch/public_html/lyasne.by/crm/application/Espo/Core/Utils/DataCache.php(98): Espo\Core\Utils\File\Manager->putPhpContents('data/cache/appl...', Array, true, true)
-#3 /home/gorshoch/public_html/lyasne.by/crm/application/Espo/Core/Utils/Module.php(111): Espo\Core\Utils\DataCache->store('modules', Array)
-#4 /home/gorshoch/public_html/lyasne.by/crm/application/Espo/Core/Utils/Module.php(82): Espo\Core\Utils\Module->init()
-#5 /ho in /home/gorshoch/public_html/lyasne.by/crm/application/Espo/Core/Utils/File/Manager.php on line 660
