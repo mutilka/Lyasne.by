@@ -3,6 +3,6 @@
 *.txt
 *.pdf
 /vscode/launch.json
-/crm/data/cache/
-/crm/data/logs/
-/crm/data/upload/
+cache/
+logs/
+upload/
